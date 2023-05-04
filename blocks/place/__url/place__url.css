@@ -1,0 +1,12 @@
+.place__url {
+    padding: 0;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 12px;
+    color: #aaaaaa;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0;
+  }
+  

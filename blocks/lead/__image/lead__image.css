@@ -1,0 +1,27 @@
+.lead__image {
+  align-self: center;
+  padding-top: 64px;
+  object-fit: cover;
+  min-height: 615px;
+  max-width: 100%;
+  display: block;
+}
+
+@media screen and (max-width: 1280px) {
+  .lead__image {
+    min-height: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    padding-top: 56px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image {
+    min-height: 200px;
+    padding-top: 40px;
+  }
+}
