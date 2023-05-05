@@ -14,6 +14,7 @@
     display: flex;
     z-index: 0;
     gap: 32px;
+    background-repeat: no-repeat;
   }
   
   .cover__link:hover::before {
