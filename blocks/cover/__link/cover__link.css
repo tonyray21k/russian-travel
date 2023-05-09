@@ -14,6 +14,7 @@
     display: flex;
     z-index: 0;
     background-repeat: no-repeat;
+    gap: 32px;
   }
   
   .cover__link:hover::before {
@@ -37,7 +38,7 @@
       min-height: 640px;
     }
   }
-  
+   /* https://ibb.co/BfL5pKH тут нормальный гап у вас в макете гап 32пх на 700пх*/
   @media screen and (max-width: 768px) {
     .cover__link {
       min-height: 480px;
@@ -53,6 +54,7 @@
   @media screen and (max-width: 320px) {
     .cover__link {
       min-height: 200px;
+      gap: 16px;
     }
   }
   
